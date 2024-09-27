@@ -1,0 +1,86 @@
+/* Container styling for a square box */
+.container {
+    max-width: 600px; /* Set a fixed width for consistency */
+    margin: 40px auto; /* Center the box */
+    background-color: #ffffff; /* White background */
+    padding: 30px; /* Padding for spacing inside the box */
+    border-radius: 0px; /* No rounded corners for a square look */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow to lift the box */
+    border: 1px solid #ddd; /* Light border for clean edges */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth hover effect */
+}
+
+/* Hover effect to lift the box */
+.container:hover {
+    transform: translateY(-5px); /* Slight hover lift */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+/* Form heading */
+h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 1.75rem;
+}
+
+/* Form label styling */
+.form-label {
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+/* Form input field styling */
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 0px; /* Square inputs to match the container */
+    padding: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus state for form inputs */
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+/* Submit button */
+button[type="submit"] {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 15px;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+    font-weight: 600;
+    border-radius: 0px; /* Square corners for button */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+/* Textarea */
+textarea.form-control {
+    resize: vertical;
+    min-height: 120px;
+    border-radius: 0px; /* Square corners for textarea */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    button[type="submit"] {
+        font-size: 14px;
+    }
+}

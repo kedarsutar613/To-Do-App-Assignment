@@ -1,0 +1,84 @@
+/* Container styles for form */
+.container {
+    max-width: 00px; /* Optimal width for readability */
+    margin: 40px auto; /* Vertical and horizontal centering */
+    background-color: #f9f9f9; /* Light background for form */
+    padding: 30px; /* Spacious padding for a clean layout */
+    border-radius: 10px; /* Softer rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* More prominent shadow for depth */
+    transition: all 0.3s ease; /* Smooth transitions for potential interactions */
+}
+
+/* Form Heading */
+h2 {
+    text-align: center; /* Centered text for better form title visibility */
+    font-weight: 700; /* Slightly bolder for prominence */
+    color: #333; /* Darker text color for contrast */
+    margin-bottom: 25px; /* Extra space below heading */
+}
+
+/* Form labels */
+.form-label {
+    font-weight: 600; /* More weight for better emphasis */
+    color: #555; /* Softened color for labels */
+}
+
+/* Form inputs styling */
+.form-control {
+    border: 1px solid #ced4da; /* Maintain clean and simple border */
+    border-radius: 4px; /* Rounded corners for form fields */
+    padding: 10px 12px; /* Adequate padding for better readability */
+    font-size: 16px; /* Comfortable font size */
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transitions for focus */
+}
+
+/* Focus state for form fields */
+.form-control:focus {
+    border-color: #007bff; /* Brighter border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3); /* Subtle glow for focus indication */
+    outline: none; /* Remove default outline */
+}
+
+/* Textarea-specific styling */
+textarea.form-control {
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 120px; /* Set minimum height for text area */
+}
+
+/* Submit button styling */
+button[type="submit"] {
+    display: block;
+    width: 100%; /* Full-width for consistency */
+    font-size: 16px;
+    padding: 12px 15px; /* More padding for larger clickable area */
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff; /* Consistent border */
+    color: white; /* White text for contrast */
+    font-weight: 600; /* Bold text for buttons */
+    border-radius: 5px; /* Slight rounding for smoothness */
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease; /* Add transition for hover effects */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+/* Hover and focus state for submit button */
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker color on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Focus state for submit button */
+button[type="submit"]:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Add focus shadow for accessibility */
+}
+
+/* Form responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    button[type="submit"] {
+        font-size: 14px; /* Reduce button font size on smaller devices */
+    }
+}

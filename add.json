@@ -1,0 +1,44 @@
+{
+  "NewTask": [
+    {
+      "id": "2f41",
+      "user": "Kedar",
+      "status": "pass",
+      "dueDate": "2001-09-01",
+      "priority": "Web",
+      "comments": "NA"
+    },
+    {
+      "id": "730c",
+      "user": "Vishal",
+      "status": "First Class",
+      "dueDate": "2000-04-08",
+      "priority": "MERN",
+      "comments": "NA"
+    },
+    {
+      "id": "081d",
+      "user": "Prashant",
+      "status": "Pass",
+      "dueDate": "2000-09-09",
+      "priority": "web",
+      "comments": "NA"
+    },
+    {
+      "id": "1797",
+      "user": "Sagar",
+      "status": "Pass",
+      "dueDate": "2000-06-06",
+      "priority": "Web",
+      "comments": "NA"
+    },
+    {
+      "id": "3c55",
+      "user": "Swapnil",
+      "status": "Pass",
+      "dueDate": "2024-09-10",
+      "priority": "Web",
+      "comments": "Na"
+    }
+  ]
+}
